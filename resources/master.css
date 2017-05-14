@@ -25,9 +25,11 @@ p {
 
 li {
   list-style: none;
+  list-style-position: inherit;
   font-size: 18px;
   color: white;
   padding: 5px;
+  align: center;
 }
 
 .third-heading {
@@ -37,4 +39,12 @@ li {
 
 .heading {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+}
+
+.footer {
+  display: block;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
